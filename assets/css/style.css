@@ -1,0 +1,153 @@
+﻿body {
+    font-family: 'Cairo', sans-serif;
+    margin:0;
+    padding:0;
+}
+.click {
+    border: 0px;
+    background: #26a69a;
+    color: white;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+#shadow {
+    background: rgba(0,0,0,0.3);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: none;
+}
+.close {
+    margin: 0;
+    padding: 0;
+    background: #26a69a;
+    color: white;
+    cursor: pointer;
+}
+
+.container {
+    display: none;
+    width: 600px;
+    height: auto;
+    margin: 10px auto;
+    background: #eceef1;
+    border-radius: 8px;
+    position: absolute;
+    left:40%;
+}
+.mainBody {
+    padding: 50px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.mainTitle {
+    color: #4db3a5;
+}
+.loginForm {
+    width: 100%;
+    height: auto;
+}
+.mainInput {
+    width: 100%;
+    height: 30px;
+    background: #dde3ec;
+    outline: 0px;
+    border: 0px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+    .mainInput:focus {
+        border: 1px solid #4db3a5;
+    }
+.leftSide {
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+.rightSide {
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+.clear{
+    clear:both;
+}
+.submitBtn {
+    border: 0px;
+    background: #26a69a;
+    color: white;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+    .submitBtn:hover {
+        background: #18736a;
+        transition-duration: 0.4s;
+    }
+    a.forget{
+        text-decoration:none;
+        color:black;
+    }
+
+    a.forget:hover {
+        text-decoration: underline;
+    }
+.social {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.loginLabel {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+.socialIcons {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.gplus {
+    background: #e07b6f;
+}
+
+.fb {
+    background: #7a94b6;
+}
+
+.twitter {
+    background: #70ceee;
+}
+
+a.socialLink {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    color: white;
+}
+
+.loginFooter {
+    background: #6c7a8d;
+    height: 80px;
+    text-align: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    line-height: 80px;
+    color: #a7c0da;
+}
+
+    .loginFooter a {
+        text-decoration: none;
+        color: #a7c0da;
+        text-transform: uppercase;
+    }
+
+        .loginFooter a:hover {
+            text-decoration: underline;
+        }
